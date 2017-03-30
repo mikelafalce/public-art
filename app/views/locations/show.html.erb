@@ -2,13 +2,22 @@
   <h1><%= @location.title %></h1>
 </div>
 
+
+
 <div class='row'>
-  <div class='col-lg-12'>
+  <div class='col-lg-6'>
     <h4>Description</h4>
     <p><%= @location.description %></p>
 
     <h4>Address</h4>
     <p><%= @location.address %></p>
+
+    <h4>Latitude, Longitude</h4>
+    <p><%= @location.latitude%>, <%= @location.longitude %></p>
+  </div>
+
+  <div class='col-lg-6'>
+  <%= render 'google_map'%>
   </div>
 </div>
 

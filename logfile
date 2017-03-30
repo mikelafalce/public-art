@@ -1,0 +1,6 @@
+LOG:  database system was shut down at 2017-03-29 09:00:07 CDT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  autovacuum launcher started
+LOG:  database system is ready to accept connections
+FATAL:  database "public-art_development" does not exist
+FATAL:  database "public-art_development" does not exist

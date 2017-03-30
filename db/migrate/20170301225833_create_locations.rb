@@ -4,7 +4,7 @@ class CreateLocations < ActiveRecord::Migration[5.0]
       t.text :title
       t.text :description
       t.text :address
-
+      t.text :ip_address
       t.timestamps
     end
   end
